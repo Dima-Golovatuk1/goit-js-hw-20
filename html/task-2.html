@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/task-2.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="nav">
@@ -23,5 +26,19 @@
             </ul>
         </nav>
     </header>
+    <main class="main">
+        <div class="container">
+            <div id="controls">
+                <input class="controls__input" id="controls-input" type="number" min="0" max="100" step="1" />
+                <button class="controls__btn-create" id="controls__btn-create" type="button" data-action="render">Створити</button>
+                <button class="controls__btn-delete" id="controls__btn-delete" type="button" data-action="destroy">Очистити</button>
+            </div>
+
+            <div id="boxes">
+            </div>
+        </div>
+    </main>
+    <script type="module" src="/js/task-2.js"></script>
 </body>
+
 </html>

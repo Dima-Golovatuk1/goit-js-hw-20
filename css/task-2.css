@@ -1,0 +1,43 @@
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.controls__input {
+    width: 100px;
+    height: 25px;
+}
+
+
+.controls__btn-create {
+    padding: 20px 30px;
+    background-color: rgb(2, 160, 2);
+}
+
+
+.controls__btn-create:hover,
+.controls__btn-create:focus {
+    background-color: rgb(1, 102, 1);
+}
+
+
+.controls__btn-delete {
+    padding: 20px 30px;
+    background-color: red;
+}
+
+
+.controls__btn-delete:hover,
+.controls__btn-delete:focus {
+    background-color: rgb(133, 0, 0);
+}
+
+
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
